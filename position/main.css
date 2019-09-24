@@ -1,0 +1,48 @@
+body {
+  background: hotpink;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer {
+  height: 80%;
+  width: 80%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 80%;
+  width: 80%;
+  background: bisque;
+  position: relative;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+}
+
+.top {
+  top: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.left {
+  left: 0px;
+}
+
+.bottom {
+  bottom: 0px;
+}
